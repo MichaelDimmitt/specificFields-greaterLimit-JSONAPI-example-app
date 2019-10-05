@@ -15,3 +15,13 @@
 
 ## Option 3: 
 3) num chars are figured out for the response and limit is done by number of characters
+
+## Also, GraphQL should give more results if there is a low quota
+1) When a company has extensive validation.
+<br/> Fields that are a finite length example: 50 characters. 
+<br/> Get a more favorable worstcase rating than Description 400 characters.
+
+2) If every field had a character quota, queries could be completed via worst case.
+
+3) If the user is requesting 3, 50 character fields as the entire response.
+<br/> They should be able to query a larger limit.
